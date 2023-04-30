@@ -42,3 +42,6 @@ DevContainer + Spring Cloud Netflix Eureka
 ----
 ### YouTube Link
 
+> * [1. Cloud 소개](https://youtu.be/mlJWoXJm034)
+> * [2. Gateway 설정하기](https://youtu.be/ZAsjRGkzbC8)
+
