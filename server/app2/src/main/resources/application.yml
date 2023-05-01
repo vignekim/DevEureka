@@ -2,5 +2,12 @@ spring:
   application:
     name: folder-api
 
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${random.value}
+  client:
+    serviceUrl:
+      defaultZone: http://server:8761/eureka/
+
 server:
-  port: 8082
+  port: 0
