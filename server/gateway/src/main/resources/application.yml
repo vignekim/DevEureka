@@ -7,14 +7,14 @@ spring:
         - id: folder-api1
           uri: http://localhost:8081
           predicates:
-            - Path=/api/**
+            - Path=/api1/**
           filters:
             - ApiFilter
 
         - id: folder-api2
           uri: http://localhost:8082
           predicates:
-            - Path=/api/**
+            - Path=/api2/**
 
 
 server:

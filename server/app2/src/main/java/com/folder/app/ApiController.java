@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 public class ApiController {
 
-  @GetMapping("/api/test")
+  @GetMapping("/api2/test")
   public String test() {
     log.info("App2 - Test()");
     return "App2 - Test()";
